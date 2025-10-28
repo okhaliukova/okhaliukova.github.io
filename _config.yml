@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-#title                    : "Olga Khaliukova"
+title                    : "Home"
 title_separator          : " "
 name                     : &name "Olga Khaliukova"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Olga Khaliukova"
   pronouns         : # example: "she/her"  
-  bio              : "Data Science, Applied Statistics, Bayesian modeling, MCMC simulation, Machine Learning (ML)"
+  bio              : "Data Scientist and Ph.D. Candidate in Applied Statistics"
   location         : "Golden, CO"
   employer         : "Colorado School of Mines"
   uri              : # URL
