@@ -1,13 +1,13 @@
 ---
-<p align="center">
-  <img src="/images/themes/IMG_6700.png" width="100%" alt="Banner image">
-</p>
+
 permalink: /
 title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - <img src="/images/IMG_6700.png" width="100%" alt="Banner image">
+
 ---
 
 
