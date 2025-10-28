@@ -23,7 +23,7 @@ repository               : "okhaliukova.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/themes/profile.png"
+  avatar           : "profile.png"
   name             : "Olga Khaliukova"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist & Ph.D. Candidate in Applied Statistics"
