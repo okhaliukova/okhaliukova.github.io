@@ -13,7 +13,7 @@ title                    : "Home"
 title_separator          : ""
 name                     : &name "Olga Khaliukova"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://okhaliukova.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://okhaliukova.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "okhaliukova.github.io"
@@ -23,7 +23,7 @@ repository               : "okhaliukova.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/themes/profile.png"
   name             : "Olga Khaliukova"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist & Ph.D. Candidate in Applied Statistics"
@@ -46,7 +46,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=d1oePWkAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-6192-7139"
+  orcid            : "https://orcid.org/0000-0002-6192-7139"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
