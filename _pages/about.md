@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="IMG_6700.png" width="100%" alt="Banner image">
+  <img src="/images/IMG_6700.png" width="90%" alt="Banner image">
 </p>
 
 Welcome! I’m Olga Khaliukova — a Ph.D. candidate in Applied Statistics at the Colorado School of Mines.
