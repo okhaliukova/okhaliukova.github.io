@@ -1,11 +1,11 @@
 ---
 permalink: /
 title: "Home"
-excerpt: "About me"
-author_profile: true
 header:
   overlay_image: "/images/IMG_6700.png"
   overlay_filter: 0.2  # optional – darkens the image slightly for text contrast
+excerpt: "About me"
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
