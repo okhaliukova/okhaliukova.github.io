@@ -5,7 +5,6 @@ author_profile: true
 classes: splash
 header:
   overlay_image: "https://okhaliukova.github.io/images/IMG_6700.png"
-excerpt: "About me"
 redirect_from: 
   - /about/
   - /about.html
