@@ -1,10 +1,11 @@
 ---
-permalink: /
 title: "Home"
+permalink: /
+author_profile: true
+classes: splash
 header:
   overlay_image: "https://okhaliukova.github.io/images/IMG_6700.png"
 excerpt: "About me"
-author_profile: true
 redirect_from: 
   - /about/
   - /about.html
