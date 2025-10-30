@@ -3,7 +3,7 @@ title: "Home"
 permalink: /
 author_profile: true
 header:
-  overlay_image: "https://okhaliukova.github.io/images/IMG_6700.png"
+  overlay_image: "https://okhaliukova.github.io/images/IMG_6700.jpeg"
 redirect_from: 
   - /about/
   - /about.html
