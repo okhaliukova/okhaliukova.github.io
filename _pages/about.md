@@ -4,7 +4,7 @@ permalink: /
 author_profile: true
 classes: splash
 header:
-  overlay_image: https://okhaliukova.github.io/images/CrestedButte.jpg
+  overlay_image: https://okhaliukova.github.io/images/CrestedButte.png
   overlay_filter: 0.2
 redirect_from:
   - /about/
