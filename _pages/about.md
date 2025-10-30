@@ -13,5 +13,7 @@ redirect_from:
   - /about.html
 ---
 
-About me. I’m Olga Khaliukova — a Ph.D. candidate in Applied Statistics at the Colorado School of Mines.
+About Me
+------
+I am a Data Scientist and a Ph.D. candidate in Applied Statistics at the Colorado School of Mines.
 My research focuses on Bayesian modeling, uncertainty quantification, and data-driven risk assessment with applications in environmental and financial systems.
