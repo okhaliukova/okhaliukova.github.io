@@ -1,7 +1,7 @@
 ---
-layout: splash
 title: "Home"
 permalink: /
+classes: splash
 author_profile: true
 header:
   overlay_image: "/images/IMG_6700.jpg"
