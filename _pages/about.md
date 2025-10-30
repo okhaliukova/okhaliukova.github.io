@@ -1,10 +1,13 @@
 ---
+layout: single
 title: ""
 permalink: /
 author_profile: true
 classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/Quandry.png
+  caption: ""
+  show_overlay_title: false
 redirect_from:
   - /about/
   - /about.html
