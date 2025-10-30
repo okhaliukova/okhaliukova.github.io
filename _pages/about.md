@@ -1,10 +1,10 @@
 ---
 title: "Home"
 permalink: /
-classes: splash
 author_profile: true
+classes: splash
 header:
-  overlay_image: "/images/CrestedButte.jpg"
+  overlay_image: /images/CrestedButte.jpg
   overlay_filter: 0.2
 redirect_from:
   - /about/
