@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 author_profile: true
 header:
-  overlay_image: "/images/IMG_6700.jpeg"
+  overlay_image: "/images/IMG_6700.jpg"
   overlay_filter: 0.2
   caption: " " # leave blank or add text if you want a caption
 intro:
