@@ -4,7 +4,7 @@ permalink: /
 classes: splash
 author_profile: true
 header:
-  overlay_image: "/images/IMG_6700.jpg"
+  overlay_image: "/images/CrestedButte.jpg"
   overlay_filter: 0.2
 redirect_from:
   - /about/
