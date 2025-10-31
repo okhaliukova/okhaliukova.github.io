@@ -20,7 +20,7 @@
 .page__hero--overlay {
   width: 100vw;               /* full viewport width */
   margin-left: calc(-50vw + 50%); /* removes side padding from page wrapper */
-  min-height: 600px;                     /* controls vertical height */
+  min-height: 400px;                     /* controls vertical height */
   background-size: cover;
   background-position: center center;
 }
