@@ -12,3 +12,10 @@
 .page__title {
   color: #777;
 }
+
+.page__hero--overlay {
+  background-attachment: fixed;  /* keeps the banner anchored */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
