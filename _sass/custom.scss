@@ -25,3 +25,11 @@
   background-size: cover;           /* fit entire image, no zoom */ 
   background-position: top center;
 }
+
+/* Text starts below banner + avatar */
+.page__content {
+  position: relative;
+  margin-top: 320px;             /* push text down to start below both */
+  z-index: 20;
+  padding: 0 1rem;
+}
