@@ -1,0 +1,14 @@
+/* Move avatar down below the banner */
+.page__hero {
+  margin-bottom: 3rem;
+}
+
+.author__avatar {
+  margin-top: 2rem;
+}
+
+/* Optional: change panel title color */
+.archive__item-title,
+.page__title {
+  color: #777;
+}
