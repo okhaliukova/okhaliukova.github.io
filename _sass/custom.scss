@@ -4,9 +4,9 @@
 }
 
 .author__avatar {
-  margin-top: 9rem; /* pushes it below the banner */
+  margin-top: 10rem; /* pushes it below the banner */
   position: relative;
-  z-index: 5;       /* keeps it visible */
+  z-index: 10;       /* keeps it visible */
 }
 
 /* Optional: change panel title color */
@@ -19,22 +19,9 @@
 .page__hero,
 .page__hero--overlay {
   width: 100%;                        /* full viewport width */
-  min-height: 250px;                  /* controls vertical height */
+  min-height: 200px;                  /* controls vertical height */
   background-size: contain;           /* fit entire image, no zoom */
   background-position: top center;
   margin-bottom: 0 !important;        /* remove extra space under banner */
-  padding-bottom: 0 !important;
-}
-
-/* Reduce the bottom spacing under the About page */
-.page__content {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-/* Tighten footer spacing */
-.page__footer {
-  margin-top: 0 !important;
-  padding-top: 0.5rem !important;
   padding-bottom: 0 !important;
 }
