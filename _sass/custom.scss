@@ -53,10 +53,17 @@
   font-size: 0.75rem;
 }
 
-/* On smaller screens, prevent footer from covering content */
-@media screen and (max-height: 700px) {
+/* On smaller screens, make sure layout stacks properly */
+@media screen and (max-width: 768px) {
   .page__footer {
-    position: relative;
-    bottom: auto;
+    position: relative !important;
+    bottom: auto !important;
+  }
+
+  .sidebar,
+  .author__content,
+  .author__avatar {
+    position: relative !important;
+    z-index: auto !important;
   }
 }
