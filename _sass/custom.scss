@@ -15,6 +15,12 @@
   color: #777;
 }
 
+/* Reduce the bottom spacing under the About page */
+.page__content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* Tighten footer spacing */
 .page__footer {
   margin-top: 0 !important;
