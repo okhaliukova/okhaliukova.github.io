@@ -19,7 +19,8 @@
 .page__hero,
 .page__hero--overlay {
   width: 100%;                        /* full viewport width */
-  min-height: 400px;                     /* controls vertical height */
-  background-size: cover;
+  min-height: 400px;                  /* controls vertical height */
+  background-size: contain;           /* fit entire image, no zoom */
   background-position: center center;
+  background-attachment: fixed;       /* optional: parallax-style anchor */
 }
