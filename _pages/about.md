@@ -12,5 +12,4 @@ redirect_from:
 
 About Me
 ------
-I am a Data Scientist and a Ph.D. candidate in Applied Statistics at the Colorado School of Mines.
-My research focuses on Bayesian modeling, uncertainty quantification, and data-driven risk assessment with applications in environmental and financial systems.
+I am a Data Scientist and Ph.D. candidate in Applied Statistics specializing in Bayesian modeling, MCMC simulation, and machine learning. I develop predictive and risk modeling frameworks that quantify uncertainty and improve decision-making in financial and environmental systems. Proficient in R and Python, experienced in leading interdisciplinary teams to build quantitative solutions for complex real-world problems.
