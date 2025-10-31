@@ -63,7 +63,8 @@
   .sidebar,
   .author__content,
   .author__avatar {
-    position: relative !important;
-    z-index: auto !important;
+    position: relative;
+    z-index: 5;
+    margin-top: 12rem; /* pushes the avatar down below the banner */
   }
 }
