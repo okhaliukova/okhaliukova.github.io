@@ -1,10 +1,10 @@
 /* Move avatar down below the banner */
 .page__hero {
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 
 .author__avatar {
-  margin-top: 5rem; /* pushes it below the banner */
+  margin-top: 15rem; /* pushes it below the banner */
   position: relative;
   z-index: 10;       /* keeps it visible */
 }
