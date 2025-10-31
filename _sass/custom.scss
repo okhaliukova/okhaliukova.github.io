@@ -1,70 +1,90 @@
-/* Move avatar down below the banner */
-.page__hero {
-  margin-bottom: 2rem;
-}
-
-.author__avatar {
-  margin-top: 12rem; /* pushes it below the banner */
-  position: relative;
-  top: auto !important;
-  left: auto !important;
-  transform: none !important;
-  margin: 1rem auto !important;
-  display: block;
-  z-index: 10;       /* keeps it visible */
-  
-}
-
-/* Optional: change panel title color */
-.archive__item-title,
-.page__title {
-  color: #777;
-}
-
+/* ===============================
+   Banner & Hero Section
+   =============================== */
 /* Make banner span entire browser width */
 .page__hero,
 .page__hero--overlay {
   position: fixed;
   width: 100%;                        /* full viewport width */
   min-height: 220px;                  /* controls vertical height */
-  position: fixed;
   background-size: cover;           /* fit entire image, no zoom */ 
   background-position: top center;
   z-index: 1;
 }
 
-/* Text starts below banner + avatar */
+.page__hero {
+  margin-bottom: 2rem;
+}
+
+/* ===============================
+   Avatar (below banner)
+   =============================== */
+.author__avatar {
+  position: relative;
+  margin-top: 12rem; /* pushes it below the banner */
+  margin-bottom: 2rem;
+  display: block;
+  z-index: 10;       /* keeps it visible */  
+}
+
+/* ===============================
+   Page Content
+   =============================== */
+/* Text starts below banner and avatar */
 .page__content {
   position: relative;
   margin-top: 235px;             /* push text down to start below both */
-  z-index: 20;
   padding: 0 1rem;
+  padding-bottom: 6rem;           /* room before footer */
+  z-index: 20;
 }
 
-/* Reduce footer box size and padding */
+/* Optional: change section or post titles */
+.archive__item-title,
+.page__title {
+  color: #777;
+}
+
+/* ===============================
+   Footer (smaller + no overlap)
+   =============================== */
 .page__footer {
-   position: relative !important;
+  position: relative !important;
   bottom: auto !important;
   clear: both;                /* ensures it stays below floated elements */
   margin-top: 2rem !important;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
   background-color: #f5f5f5;
   font-size: 0.75rem;
+  z-index: 1;
 }
 
-/* On smaller screens, make sure layout stacks properly */
+/* ===============================
+   Sidebar (prevent overlap)
+   =============================== */
+.sidebar {
+  position: relative !important;
+  z-index: 10;
+  padding-bottom: 6rem;           /* ensure footer never covers it */
+}
+
+/* ===============================
+   Mobile Adjustments
+   =============================== */
 @media screen and (max-width: 768px) {
   .page__footer {
     position: relative !important;
     bottom: auto !important;
   }
 
-  .sidebar,
-  .author__content,
   .author__avatar {
+    margin-top: 10rem; /* slightly less space on small screens */
+  }
+
+  .sidebar,
+  .author__content {
     position: relative;
     z-index: 5;
-    margin-top: 12rem; /* pushes the avatar down below the banner */
   }
 }
