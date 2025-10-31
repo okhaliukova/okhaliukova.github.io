@@ -22,6 +22,8 @@
   min-height: 350px;                  /* controls vertical height */
   background-size: contain;           /* fit entire image, no zoom */
   background-position: top center;
+  margin-bottom: 0 !important;        /* remove extra space under banner */
+  padding-bottom: 0 !important;
 }
 
 /* Reduce the bottom spacing under the About page */
