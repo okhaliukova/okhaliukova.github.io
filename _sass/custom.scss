@@ -1,10 +1,10 @@
 /* Move avatar down below the banner */
 .page__hero {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .author__avatar {
-  margin-top: 8rem; /* pushes it below the banner */
+  margin-top: 10rem; /* pushes it below the banner */
   position: relative;
   z-index: 5;       /* keeps it visible */
 }
@@ -19,7 +19,7 @@
 .page__hero,
 .page__hero--overlay {
   width: 100%;                        /* full viewport width */
-  min-height: 300px;                  /* controls vertical height */
+  min-height: 250px;                  /* controls vertical height */
   background-size: contain;           /* fit entire image, no zoom */
   background-position: top center;
   margin-bottom: 0 !important;        /* remove extra space under banner */
