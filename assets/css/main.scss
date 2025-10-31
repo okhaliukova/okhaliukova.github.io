@@ -40,3 +40,24 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+figure {
+    display: inline-block;
+    // border: 1px dotted gray;
+    margin: 0px 15px 0px 0px;
+}
+figure img {
+    vertical-align: top;
+    margin: 0px;
+}
+figure figcaption {
+    //border: 1px dotted blue;
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 16px;
+}
+img.thumb {
+	width: 350px;
+}
