@@ -25,3 +25,18 @@
   margin-bottom: 0 !important;        /* remove extra space under banner */
   padding-bottom: 0 !important;
 }
+
+/* Reduce or remove bottom whitespace */
+.site-footer,
+.page__footer,
+.footer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Ensure the content container doesn’t leave large gap */
+.page__content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
