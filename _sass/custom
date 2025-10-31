@@ -4,7 +4,9 @@
 }
 
 .author__avatar {
-  margin-top: 2rem;
+  margin-top: 2rem; /* pushes it below the banner */
+  position: relative;
+  z-index: 10;       /* keeps it visible */
 }
 
 /* Optional: change panel title color */
