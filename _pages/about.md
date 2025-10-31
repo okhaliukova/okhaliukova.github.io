@@ -1,6 +1,5 @@
 ---
-layout: single
-title: ""
+title: "Home"
 permalink: /
 author_profile: true
 classes: splash
