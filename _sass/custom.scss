@@ -18,8 +18,7 @@
 /* Make banner span entire browser width */
 .page__hero,
 .page__hero--overlay {
-  width: 100vw;                          /* full viewport width */
-  margin-left: calc(-50vw + 10%);        /* cancel wrapper side margins */
+  width: 100%;                        /* full viewport width */
   min-height: 400px;                     /* controls vertical height */
   background-size: cover;
   background-position: center center;
