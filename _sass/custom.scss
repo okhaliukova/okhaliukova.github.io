@@ -20,15 +20,10 @@
 .page__hero--overlay {
   width: 100vw;               /* full viewport width */
   margin-left: calc(-50vw + 50%); /* removes side padding from page wrapper */
+  min-height: 600px;                     /* controls vertical height */
   background-size: cover;
   background-position: center center;
 }
-
-/* Optional: adjust height */
-.page__hero--overlay {
-  min-height: 500px; /* increase or decrease as desired */
-}
-
 
 /* Reduce the bottom spacing under the About page */
 .page__content {
