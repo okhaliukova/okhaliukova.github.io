@@ -4,7 +4,7 @@
 }
 
 .author__avatar {
-  margin-top: 9rem; /* pushes it below the banner */
+  margin-top: 8rem; /* pushes it below the banner */
   position: relative;
   z-index: 10;       /* keeps it visible */
 }
@@ -18,6 +18,6 @@
 .page__hero--overlay {
   background-attachment: fixed;  /* keeps the banner anchored */
   background-size: cover;
-  background-position: top center;
+  background-position: 50% 30%;
   background-repeat: no-repeat;
 }
