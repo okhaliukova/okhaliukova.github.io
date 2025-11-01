@@ -58,7 +58,7 @@
    Footer (smaller + no overlap)
    =============================== */
 .page__footer {
-  position: fixed !important;
+  position: relative !important;
   bottom: auto !important;
   clear: both;                /* ensures it stays below floated elements */
   margin-top: 2rem !important;
