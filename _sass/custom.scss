@@ -24,7 +24,7 @@
   margin-top: 12rem; /* pushes it below the banner */
   margin-bottom: 2rem;
   display: block;
-  z-index: 10;       /* keeps it visible */  
+  z-index: 20;       /* keeps it visible */  
 }
 
 /* ===============================
@@ -64,8 +64,8 @@
    Sidebar (prevent overlap)
    =============================== */
 .sidebar {
-  position: relative;
-  z-index: 10;
+  position: fixed;
+  z-index: 15;
   padding-bottom: 6rem;           /* ensure footer never covers it */
 }
 
@@ -79,7 +79,7 @@
   }
 
   .author__avatar {
-    margin-top: 5rem; /* slightly less space on small screens */
+    margin-top: 0.5rem; /* slightly less space on small screens */
   }
 
   .sidebar,
