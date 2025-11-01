@@ -22,8 +22,10 @@
    =============================== */
 .sidebar {
   position: fixed !important;
+  height: 100vh;                      /* full viewport height */
   padding-top: 490px !important; /* pushes text below avatar */
   padding-bottom: 6rem !important;
+   overflow-y: auto !important; 
   z-index: 10 !important;
 }
 
