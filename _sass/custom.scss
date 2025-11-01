@@ -22,7 +22,7 @@
    =============================== */
 .sidebar {
   position: fixed !important;
-  padding-top: 270px !important; /* pushes text below avatar */
+  padding-top: 370px !important; /* pushes text below avatar */
   overflow-y: auto !important;
   z-index: 10 !important;
 }
@@ -32,7 +32,7 @@
    =============================== */
 .sidebar .author__avatar {
   position: fixed !important;
-  top: 240px !important; /* below banner */
+  top: 260px !important; /* below banner */
   z-index: 20 !important;
 }
 
