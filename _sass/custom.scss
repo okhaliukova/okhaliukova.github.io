@@ -16,16 +16,30 @@
   margin-bottom: 2rem;
 }
 
+
+/* ===============================
+   Sidebar (fixed layout)
+   =============================== */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;                      /* full height of viewport */
+  width: 250px;                       /* adjust width as needed */
+  padding-top: 240px;                 /* pushes sidebar text below avatar */
+  overflow-y: auto;                   /* scroll if sidebar content too long */
+  z-index: 10;
+}
+
+
 /* ===============================
    Avatar (below banner)
    =============================== */
-.author__avatar {
-  position: fixed;
-  margin-top: 12rem; /* pushes it below the banner */
-  margin-bottom: 2rem;
-  display: block;
-  z-index: 20;       /* keeps it visible */  
-}
+top: 160px;                         /* sits below banner */
+  left: 0;
+  width: 250px;                       /* same width as sidebar */
+  display: flex;
+  z-index: 20;                        /* above sidebar */
 
 /* ===============================
    Page Content
@@ -56,35 +70,36 @@
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   background-color: #f5f5f5;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   z-index: 1;
+  text-align: left;     /* force text to align left */
 }
 
-/* ===============================
-   Sidebar (prevent overlap)
-   =============================== */
-.sidebar {
-  position: fixed;
-  z-index: 15;
-  padding-bottom: 6rem;           /* ensure footer never covers it */
-}
 
 /* ===============================
    Mobile Adjustments
    =============================== */
 @media screen and (max-width: 768px) {
-  .page__footer {
-    position: relative !important;
-    bottom: auto !important;
+  .page__hero {
+    position: relative;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
   }
 
   .author__avatar {
-    margin-top: 0.5rem; /* slightly less space on small screens */
+    position: relative;
+    top: auto;
+    margin-top: 0.5rem;
+    justify-content: center;
   }
 
-  .sidebar,
-  .author__content {
-    position: fixed;
-    z-index: 5;
+  .page__content {
+    margin-left: 0;
+    margin-top: 0;
   }
 }
