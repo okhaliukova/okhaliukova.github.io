@@ -1,128 +1,102 @@
+  =============================== */
+.sidebar {
+position: fixed !important;
+  height: 100vh;                      /* full viewport height */
+padding-top: 490px !important; /* pushes text below avatar */
+padding-bottom: 6rem !important;
+   overflow-y: auto !important; 
+z-index: 10 !important;
+}
+
 /* ===============================
-   Banner / Hero
-   =============================== */
+  Avatar fixed below banner
+  =============================== */
+.sidebar .author__avatar {
+position: fixed !important;
+top: 260px !important; /* below banner */
+z-index: 20 !important;
+}
+
+/* ===============================
+  Content offset
+  =============================== */
+.page__content {
+position: relative;
+margin-top: 235px !important;   /* below banner */
+padding: 0 1rem;
+padding-bottom: 6rem;           /* room before footer */
+z-index: 5;
+}
+
+
+/* Optional: change section or post titles */
+.archive__item-title,
+.page__title {
+color: #777;
+}
+
+/* ===============================
+  Footer (smaller + no overlap)
+  =============================== */
+.page__footer {
+position: relative !important;
+bottom: auto !important;
+clear: both;                /* ensures it stays below floated elements */
+margin-top: 2rem !important;
+padding-top: 0.5rem !important;
+padding-bottom: 0.5rem !important;
+background-color: #f5f5f5;
+font-size: 1rem;
+z-index: 1;
+text-align: left;     /* force text to align left */
+}
+
+
+/* ===============================
+  Mobile Adjustments
+  =============================== */
+@media screen and (max-width: 768px) {
+
+/* Let the banner scroll normally on mobile */
 .page__hero,
 .page__hero--overlay {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  min-height: 220px;
-  background-size: cover;
-  background-position: top center;
-  z-index: 1;
+position: relative !important;
+min-height: 160px !important;
 }
 
-.page__hero {
-  margin-bottom: 2rem;
-}
-
-
-/* ===============================
-   Sidebar (matches Minimal Mistakes)
-   =============================== */
+/* Sidebar becomes a top section instead of fixed column */
 .sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 260px;                 /* matches default column width */
-  height: 100vh;
-  padding-top: 180px;           /* space for banner + avatar */
-  padding-right: 15px;
-  padding-left: 15px;
-  overflow-y: auto;
-  background: #fff;
-  box-shadow: 2px 0 6px rgba(0,0,0,0.05); /* soft depth, not a line */
-  z-index: 10;
+position: relative !important;
+width: 100% !important;
+height: auto !important;
+padding-top: 1rem !important;
+padding-bottom: 1rem !important;
+background: #fff !important;
+border-bottom: 1px solid #eee; /* optional subtle divider */
+z-index: 5 !important;
 }
 
-/* Avatar naturally spaced — no hard-coded pixels */
-.sidebar .author__avatar {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;             /* pushes it below banner */
-  margin-bottom: 1rem;
+/* Avatar centers above sidebar text */
+.author__avatar {
+position: relative !important;
+top: auto !important;
+left: auto !important;
+margin: 0 auto 0.5rem auto !important;
+display: block !important;
+justify-content: center !important;
+width: 120px !important; /* smaller avatar */
 }
 
-.sidebar .author__avatar img {
-  max-width: 175px;
-  border-radius: 50%;
-  border: 1px solid #ddd;       /* soft outline like Antony’s */
-  padding: 4px;
-  background-color: #fff;
-}
-
-/* Sidebar text / links */
-.sidebar * {
-  text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-  line-height: 1.5;
-}
-
-/* ===============================
-   Page Content
-   =============================== */
+/* Content goes full width, starts below banner */
 .page__content {
-  position: relative;
-  margin-left: 290px;           /* same offset as sidebar width */
-  margin-top: 240px;            /* below hero/banner */
-  padding: 0 2rem 6rem 2rem;
-  max-width: 900px;
-  z-index: 5;
+margin-left: 0 !important;
+margin-top: 1rem !important;
+padding: 0 1rem !important;
 }
 
-/* ===============================
-   Footer (stretches naturally)
-   =============================== */
+/* Optional: reduce footer padding */
 .page__footer {
-  position: relative;
-  clear: both;
-  background-color: #f5f5f5;
-  color: #444;
-  font-size: 0.9rem;
-  padding: 1rem 2rem;
-  margin-top: 2rem;
-  z-index: 1;
-  text-align: left;
-  margin-left: 290px;           /* aligns with content */
-  border-top: 1px solid #e0e0e0;
+padding-top: 0.5rem !important;
+padding-bottom: 0.5rem !important;
 }
-
-/* ===============================
-   Responsive tweaks
-   =============================== */
-@media screen and (max-width: 1024px) {
-  .sidebar {
-    width: 220px;
-  }
-  .page__content,
-  .page__footer {
-    margin-left: 240px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page__hero,
-  .page__hero--overlay {
-    position: relative;
-    min-height: 160px;
-  }
-
-  .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 1rem;
-    box-shadow: none;
-  }
-
-  .sidebar .author__avatar {
-    margin-top: 0;
-  }
-
-  .page__content,
-  .page__footer {
-    margin-left: 0;
-    padding: 1rem;
-  }
 }
