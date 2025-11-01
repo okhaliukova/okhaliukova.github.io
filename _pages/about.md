@@ -13,7 +13,7 @@ redirect_from:
 # Olga Khaliukova
 
 
-About Me
+About me
 ------
 I am a Data Scientist and Ph.D. candidate in the <a href="https://ams.mines.edu/" target="_blank">Department of Applied Mathematics and Statistics</a> at the Colorado School of Mines, where I also earned an M.S. in Data Science (2023). I hold an M.S. in Agricultural and Resource Economics from the <a href="https://www.utk.edu/" target="_blank">University of Tennessee</a>, Knoxville (2013), and a B.S. in Management from the <a href="https://nubip.edu.ua/en" target="_blank">National University of Life and Environmental Sciences of Ukraine</a>, Kyiv (2011).
 
