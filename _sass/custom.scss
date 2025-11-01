@@ -8,7 +8,7 @@
   width: 100%;                        /* full viewport width */
   min-height: 220px;                  /* controls vertical height */
   background-size: cover;           /* fit entire image, no zoom */ 
-  background-position: top center;
+  background-position: top center;  /* appears at the top of the page, without top, banner is in the middle of the page*/ 
   z-index: 1;
 }
 
