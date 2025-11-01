@@ -1,13 +1,12 @@
 /* ===============================
    Banner & Hero Section
    =============================== */
-/* Make banner span entire browser width */
 .page__hero,
 .page__hero--overlay {
   position: fixed;
-  width: 100%;                        /* full viewport width */
-  min-height: 220px;                  /* controls vertical height */
-  background-size: cover;           /* fit entire image, no zoom */ 
+  width: 100%;
+  min-height: 220px;
+  background-size: cover;
   background-position: top center;
   z-index: 1;
 }
@@ -18,41 +17,49 @@
 
 
 /* ===============================
-   Sidebar (fixed layout)
+   Sidebar (fixed layout, padded)
    =============================== */
 .sidebar {
   position: fixed !important;
-  height: 100%;                      /* full viewport height */
-  padding-top: 490px !important; /* pushes text below avatar */
-  padding-bottom: 6rem !important;
-  z-index: 10 !important;
+  top: 0;
+  left: 20px;                        /* adds gutter from browser edge */
+  width: 230px;                      /* a bit narrower to account for padding */
+  height: 100vh;
+  padding-top: 490px !important;     /* pushes text below avatar */
+  padding-bottom: 1rem !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #fff;                  /* ensures text doesn’t blend with hero */
+  border-right: 1px solid #eee;      /* optional soft divider */
+  z-index: 100 !important;
 }
+
 
 /* ===============================
    Avatar fixed below banner
    =============================== */
 .sidebar .author__avatar {
   position: fixed !important;
-  top: 260px !important; /* below banner */
-  z-index: 20 !important;
+  top: 260px !important;
+  left: 20px;                        /*  aligns avatar with sidebar gutter */
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  z-index: 200 !important;
 }
 
+
 /* ===============================
-   Content offset
+   Page Content
    =============================== */
 .page__content {
   position: relative;
-  margin-top: 235px !important;   /* below banner */
+  margin-left: 270px;                /* leaves gutter + sidebar space */
+  margin-top: 235px !important;
   padding: 0 1rem 6rem 1rem;
   z-index: 5;
 }
 
-
-/* Optional: change section or post titles */
-.archive__item-title,
-.page__title {
-  color: #777;
-}
 
 /* ===============================
    Footer (smaller + no overlap)
@@ -60,14 +67,15 @@
 .page__footer {
   position: relative !important;
   bottom: auto !important;
-  clear: both;                /* ensures it stays below floated elements */
+  clear: both;
+  margin-left: 270px;                /* aligns footer with content */
   margin-top: 2rem !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   background-color: #f5f5f5;
   font-size: 1rem;
-  z-index: 0;
-  text-align: left;     /* force text to align left */
+  text-align: left;
+  z-index: 1;
 }
 
 
@@ -76,46 +84,43 @@
    =============================== */
 @media screen and (max-width: 768px) {
 
-  /* Let the banner scroll normally on mobile */
   .page__hero,
   .page__hero--overlay {
     position: relative !important;
     min-height: 160px !important;
   }
 
-  /* Sidebar becomes a top section instead of fixed column */
   .sidebar {
     position: relative !important;
     width: 100% !important;
     height: auto !important;
+    top: auto !important;
+    left: auto !important;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
     background: #fff !important;
-    border-bottom: 1px solid #eee; /* optional subtle divider */
+    border-bottom: 1px solid #eee;
+    overflow: visible !important;
     z-index: 5 !important;
   }
 
-  /* Avatar centers above sidebar text */
-  .author__avatar {
+  .sidebar .author__avatar {
     position: relative !important;
     top: auto !important;
     left: auto !important;
     margin: 0 auto 0.5rem auto !important;
     display: block !important;
     justify-content: center !important;
-    width: 120px !important; /* smaller avatar */
+    width: 120px !important;
   }
 
-  /* Content goes full width, starts below banner */
   .page__content {
     margin-left: 0 !important;
     margin-top: 1rem !important;
     padding: 0 1rem !important;
   }
 
-  /* Optional: reduce footer padding */
   .page__footer {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    margin-left: 0 !important;
   }
 }
