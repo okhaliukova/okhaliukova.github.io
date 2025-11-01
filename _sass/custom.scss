@@ -20,7 +20,7 @@
    Avatar (below banner)
    =============================== */
 .author__avatar {
-  position: relative;
+  position: fixed;
   margin-top: 12rem; /* pushes it below the banner */
   margin-bottom: 2rem;
   display: block;
@@ -84,7 +84,7 @@
 
   .sidebar,
   .author__content {
-    position: relative;
+    position: fixed;
     z-index: 5;
   }
 }
