@@ -1,10 +1,8 @@
   =============================== */
 .sidebar {
 position: fixed !important;
-  height: 100vh;                      /* full viewport height */
 padding-top: 490px !important; /* pushes text below avatar */
 padding-bottom: 6rem !important;
-   overflow-y: auto !important; 
 z-index: 10 !important;
 }
 
@@ -72,7 +70,6 @@ height: auto !important;
 padding-top: 1rem !important;
 padding-bottom: 1rem !important;
 background: #fff !important;
-border-bottom: 1px solid #eee; /* optional subtle divider */
 z-index: 5 !important;
 }
 
