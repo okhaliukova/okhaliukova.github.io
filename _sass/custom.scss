@@ -20,7 +20,7 @@
    Avatar (below banner)
    =============================== */
 .author__avatar {
-  position: relative;
+  position: fixed;
   margin-top: 12rem; /* pushes it below the banner */
   margin-bottom: 2rem;
   display: block;
@@ -64,7 +64,7 @@
    Sidebar (prevent overlap)
    =============================== */
 .sidebar {
-  position: relative !important;
+  position: fixed;
   z-index: 10;
   padding-bottom: 6rem;           /* ensure footer never covers it */
 }
