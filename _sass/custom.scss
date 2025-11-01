@@ -1,4 +1,23 @@
-  =============================== */
+/* ===============================
+   Banner & Hero Section
+   =============================== */
+/* Make banner span entire browser width */
+.page__hero,
+.page__hero--overlay {
+  position: fixed;
+  width: 100%;                        /* full viewport width */
+  min-height: 220px;                  /* controls vertical height */
+  background-size: cover;           /* fit entire image, no zoom */ 
+  background-position: top center;
+  z-index: 1;
+}
+
+.page__hero {
+  margin-bottom: 2rem;
+}
+
+
+/* =============================== */
 .sidebar {
 position: fixed !important;
 padding-top: 490px !important; /* pushes text below avatar */
