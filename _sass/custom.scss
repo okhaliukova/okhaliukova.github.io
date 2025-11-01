@@ -21,37 +21,40 @@
    Sidebar (fixed layout)
    =============================== */
 .sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;                      /* full height of viewport */
-  width: 250px;                       /* adjust width as needed */
-  padding-top: 240px;                 /* pushes sidebar text below avatar */
-  overflow-y: auto;                   /* scroll if sidebar content too long */
-  z-index: 10;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 250px !important;
+  height: 100vh !important;
+  padding-top: 240px !important; /* pushes text below avatar */
+  overflow-y: auto !important;
+  z-index: 10 !important;
 }
 
+/* ===============================
+   Avatar fixed below banner
+   =============================== */
+.sidebar .author__avatar {
+  position: fixed !important;
+  top: 160px !important; /* below banner */
+  left: 0 !important;
+  width: 250px !important;
+  display: flex !important;
+  justify-content: center !important;
+  z-index: 20 !important;
+}
 
 /* ===============================
-   Avatar (below banner)
+   Content offset
    =============================== */
-top: 160px;                         /* sits below banner */
-  left: 0;
-  width: 250px;                       /* same width as sidebar */
-  display: flex;
-  z-index: 20;                        /* above sidebar */
-
-/* ===============================
-   Page Content
-   =============================== */
-/* Text starts below banner and avatar */
 .page__content {
   position: relative;
-  margin-top: 235px;             /* push text down to start below both */
+  margin-top: 235px !important;   /* below banner */
   padding: 0 1rem;
   padding-bottom: 6rem;           /* room before footer */
-  z-index: 20;
+  z-index: 5;
 }
+
 
 /* Optional: change section or post titles */
 .archive__item-title,
@@ -80,26 +83,47 @@ top: 160px;                         /* sits below banner */
    Mobile Adjustments
    =============================== */
 @media screen and (max-width: 768px) {
-  .page__hero {
-    position: relative;
+
+  /* Let the banner scroll normally on mobile */
+  .page__hero,
+  .page__hero--overlay {
+    position: relative !important;
+    min-height: 160px !important;
   }
 
+  /* Sidebar becomes a top section instead of fixed column */
   .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding-top: 0;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background: #fff !important;
+    border-bottom: 1px solid #eee; /* optional subtle divider */
+    z-index: 5 !important;
   }
 
+  /* Avatar centers above sidebar text */
   .author__avatar {
-    position: relative;
-    top: auto;
-    margin-top: 0.5rem;
-    justify-content: center;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 0 auto 0.5rem auto !important;
+    display: block !important;
+    justify-content: center !important;
+    width: 120px !important; /* smaller avatar */
   }
 
+  /* Content goes full width, starts below banner */
   .page__content {
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: 0 !important;
+    margin-top: 1rem !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Optional: reduce footer padding */
+  .page__footer {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
 }
