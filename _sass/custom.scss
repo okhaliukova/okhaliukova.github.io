@@ -4,7 +4,6 @@
 /* Make banner span entire browser width */
 .page__hero,
 .page__hero--overlay {
-  position: fixed;
   width: 100%;                        /* full viewport width */
   min-height: 220px;                  /* controls vertical height */
   background-size: cover;           /* fit entire image, no zoom */ 
