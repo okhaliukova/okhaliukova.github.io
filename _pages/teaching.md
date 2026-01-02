@@ -2,7 +2,7 @@
 title: "Teaching Experience"
 permalink: /teaching/
 author_profile: true
-layout: splash
+classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 ---
