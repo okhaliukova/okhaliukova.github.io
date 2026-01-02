@@ -10,19 +10,38 @@ redirect_from:
 - /teaching.html
 ---
 
-# Colorado School of Mines, Department of Applied Mathematics and Statistics
-## Teaching Assistant
-### MATH 537: Multivariate Analysis
-Topics: introduction to multivariate distributions; methods for data reduction, hierarchical and model-based clustering methods, factor analysis, canonical correlation analysis, multidimensional scaling, and multivariate hypothesis testing.
+## 🎓 Colorado School of Mines  
+**Department of Applied Mathematics and Statistics**  
+*Teaching Assistant*
 
-### MATH 560: Introduction to Key Statistical Learning Methods I
-Topics: regression, classification, resampling, and model assessment.
+---
 
-### MATH111: Calculus for Scientists and Engineers I
-Topics: key concepts in limits, derivatives, and integrals.
+### **MATH 537 — Multivariate Analysis**
+**Topics:**  
+Multivariate distributions; data reduction methods; hierarchical and model-based clustering; factor analysis; canonical correlation analysis; multidimensional scaling; multivariate hypothesis testing.
 
+---
 
-# University of Northern Colorado, Department of Applied Statistics and Research Methods
-## Lecturer
-### STAT 150: Introduction to Statistical Analysis. 
-Topics: data organization, central tendency, dispersion, probability, and hypothesis testing. 
+### **MATH 560 — Introduction to Statistical Learning Methods I**
+**Topics:**  
+Regression; classification; resampling methods; model assessment.
+
+---
+
+### **MATH 111 — Calculus for Scientists and Engineers I**
+**Topics:**  
+Limits; derivatives; integrals; foundational calculus concepts for engineering and science majors.
+
+---
+
+<br>
+
+## 🎓 University of Northern Colorado  
+**Department of Applied Statistics and Research Methods**  
+*Lecturer*
+
+---
+
+### **STAT 150 — Introduction to Statistical Analysis**
+**Topics:**  
+Data organization; measures of central tendency and dispersion; probability; hypothesis testing.
