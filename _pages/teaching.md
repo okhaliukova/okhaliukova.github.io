@@ -1,13 +1,10 @@
 ---
 title: "Teaching Experience"
 permalink: /teaching/
-classes: splash
 author_profile: true
+classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
-redirect_from: 
-- /teaching/ -
-- /teaching.html
 ---
 
 ## 🎓 Colorado School of Mines, Golden, CO  
