@@ -6,8 +6,6 @@ author_profile: true
 classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells2.png
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
