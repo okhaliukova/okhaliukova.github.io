@@ -1,11 +1,10 @@
 ---
-title: ""
+title: "Teaching Experience"
 permalink: /teaching/
-classes: splash
+layout: single
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 redirect_from:
-- /teaching/
 - /teaching.html
 ---
 
