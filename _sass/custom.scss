@@ -4,7 +4,7 @@
 /* Make banner span entire browser width */
 .page__hero,
 .page__hero--overlay {
-  position: fixed;
+  position: relative;      /* IMPORTANT */
   width: 100%;                        /* full viewport width */
   min-height: 220px;                  /* controls vertical height */
   background-size: cover;           /* fit entire image, no zoom */ 
@@ -19,7 +19,7 @@
 
 /* =============================== */
 .sidebar {
-position: fixed;
+position: sticky;
 padding-top: 490px !important; /* pushes text below avatar */
 padding-bottom: 6rem;
 z-index: 10 !important;
