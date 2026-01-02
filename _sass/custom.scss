@@ -13,26 +13,21 @@
 }
 
 .page__hero {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 
-/* =============================== */
+/* ===============================
+   Sidebar
+   =============================== */
 .sidebar {
   position: sticky;
   top: 1rem;
   padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
+  z-index: 10;
 }
 
-/* ===============================
-  Avatar fixed below banner
-  =============================== */
-.sidebar .author__avatar {
-position: fixed !important;
-top: 260px !important; /* below banner */
-z-index: 20 !important;
-}
 
 /* ===============================
   Content offset
@@ -41,8 +36,14 @@ z-index: 20 !important;
 position: relative;
  margin-top: 2rem;
   padding: 0 1rem 6rem;
+   z-index: 5;
 }
 
+/* Titles */
+.archive__item-title,
+.page__title {
+  color: #777;
+}
 
 /* Optional: change section or post titles */
 .archive__item-title,
@@ -62,6 +63,5 @@ padding-top: 0.5rem !important;
 padding-bottom: 0.5rem !important;
 background-color: #f5f5f5;
 font-size: 1rem;
-z-index: 1;
 text-align: left;     /* force text to align left */
 }
