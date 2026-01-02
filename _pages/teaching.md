@@ -6,6 +6,10 @@ author_profile: true
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 ---
+{% raw %}{% include feature_row %}{% endraw %}
+
+{% raw %}{% assign teaching = site.pages | where:"permalink","/teaching/" %}{% endraw %}
+
 
 ## 🎓 Colorado School of Mines, Golden, CO  
 **Department of Applied Mathematics and Statistics**  
