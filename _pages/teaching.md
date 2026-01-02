@@ -10,7 +10,7 @@ redirect_from:
 - /teaching.html
 ---
 
-## 🎓 Colorado School of Mines  
+## 🎓 Colorado School of Mines, Golden, CO  
 **Department of Applied Mathematics and Statistics**  
 *Teaching Assistant*
 
@@ -36,7 +36,7 @@ Limits; derivatives; integrals; foundational calculus concepts for engineering a
 
 <br>
 
-## 🎓 University of Northern Colorado  
+## 🎓 University of Northern Colorado, Greeley, CO  
 **Department of Applied Statistics and Research Methods**  
 *Lecturer*
 
