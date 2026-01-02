@@ -4,8 +4,6 @@ permalink: /teaching/
 layout: single
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
-redirect_from:
-- /teaching.html
 ---
 
 ## 🎓 Colorado School of Mines, Golden, CO  
