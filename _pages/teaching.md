@@ -1,7 +1,6 @@
 ---
 title: ""
 permalink: /teaching/
-layout: single
 classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
