@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Teaching Experience"
 permalink: /
 author_profile: true
 classes: splash
@@ -7,8 +7,8 @@ header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells2.png
 ---
 
-## Colorado School of Mines, Department of Applied Mathematics and Statistics
-# Teaching Assistant
+# Colorado School of Mines, Department of Applied Mathematics and Statistics
+## Teaching Assistant
 
-## University of Northern Colorado, 
-# Lecturer
+# University of Northern Colorado, Department of Applied Statistics and Research Methods
+## Lecturer
