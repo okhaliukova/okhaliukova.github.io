@@ -1,5 +1,5 @@
 ---
-title: "Teaching Experience"
+title: ""
 permalink: /
 author_profile: true
 classes: splash
