@@ -1,5 +1,5 @@
 ---
-title: ""
+title: " "
 permalink: /teaching/
 author_profile: true
 classes: splash
