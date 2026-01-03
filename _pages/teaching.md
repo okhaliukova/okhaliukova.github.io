@@ -1,11 +1,12 @@
 ---
-title: "Teaching Experience"
+title: ""
 permalink: /teaching/
 author_profile: true
 classes: splash
 header:
   overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 ---
+# Teaching Experience
 
 ## 🎓 Colorado School of Mines, Golden, CO  
 **Department of Applied Mathematics and Statistics**  
