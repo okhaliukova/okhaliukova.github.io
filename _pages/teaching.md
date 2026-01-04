@@ -25,7 +25,7 @@ Topics: Linear regression; LASSO and Ridge regression; cross-validation methods;
 ---
 
 ### **MATH 111 — Calculus for Scientists and Engineers I**
-Topics: Limits; derivatives; integrals; foundational calculus concepts for engineering and science majors.
+Topics: Limits, differentiation, integration, and core calculus concepts with applications to engineering and the physical sciences.
 
 ---
 
