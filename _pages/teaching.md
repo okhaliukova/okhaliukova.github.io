@@ -14,16 +14,18 @@ header:
 
 ---
 
-### **MATH 537 — Multivariate Analysis**
-Topics: Multivariate distributions; data reduction methods; hierarchical and model-based clustering; factor analysis; canonical correlation analysis; multidimensional scaling; multivariate hypothesis testing.
-
----
-
 ### **MATH 560 — Introduction to Statistical Learning Methods I**
 Topics: Linear regression; LASSO and Ridge regression; cross-validation methods; classification; resampling methods; model assessment; spline regression.
 
 ---
+### **MATH 537 — Multivariate Analysis**
+Topics: Multivariate distributions; data reduction methods; hierarchical and model-based clustering; factor analysis; canonical correlation analysis; multidimensional scaling; multivariate hypothesis testing.
 
+---
+### **MATH 530 — Statistical Methods I**
+Topics: Probability theory; data collection; observational and experimental studies; sampling designs; exploratory data analysis; sampling distribution statistics.
+
+---
 ### **MATH 111 — Calculus for Scientists and Engineers I**
 Topics: Limits, differentiation, integration, and core calculus concepts with applications to engineering and the physical sciences.
 
