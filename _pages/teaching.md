@@ -22,7 +22,7 @@ Multivariate distributions; data reduction methods; hierarchical and model-based
 
 ### **MATH 560 — Introduction to Statistical Learning Methods I**
 **Topics:**  
-Regression; classification; resampling methods; model assessment.
+Linear regression; LASSO and Ridge regression; cross-validation methods; classification; resampling methods; model assessment; spline regression.
 
 ---
 
