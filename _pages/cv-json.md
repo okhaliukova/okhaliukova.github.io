@@ -1,17 +1,12 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv-json/
-author_profile: false
-redirect_from:
-  - /resume-json
+title: "Professional"
+permalink: /cv/
+author_profile: true
+classes: splash
+header:
+  overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 ---
 
-{% include base_path %}
-
-{% include cv-template.html %}
-
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
-</div>
+Below are pdf versions of my CV and Resume. More detail can be found on my <a href="https://www.linkedin.com/in/okhaliukova/" target="_blank">Linkedin profile</a>.
+- **CV**: [PDF](https://okhaliukova.github.io/files/Khaliukova-CV.pdf)
+- **Resume**: [PDF](https://okhaliukova.github.io/files/Khaliukova-Resume.pdf)
