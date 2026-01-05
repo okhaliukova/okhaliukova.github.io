@@ -4,7 +4,7 @@ permalink: /teaching/
 author_profile: true
 classes: splash
 header:
-  overlay_image: https://okhaliukova.github.io/images/MaroonBells2.png
+  overlay_image: https://okhaliukova.github.io/images/MaroonBells1.png
 ---
 # Teaching Experience
 
