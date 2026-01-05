@@ -27,7 +27,7 @@ Topics: Probability theory; data collection; observational and experimental stud
 
 ---
 ### **MATH 111 — Calculus for Scientists and Engineers I**
-Topics: Limits, differentiation, integration, and core calculus concepts with applications to engineering and the physical sciences.
+Topics: Limits, differentiation, integration, and core calculus concepts with applications in engineering and physics.
 
 ---
 
