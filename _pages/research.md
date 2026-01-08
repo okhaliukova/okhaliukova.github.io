@@ -28,8 +28,9 @@ liquefied natural gas (LNG) facilities. Investigated the distribution of instant
 spatially averaged estimates using aerial measurement data and Monte Carlo simulation.
 
 **Methane emission aggregation methods at LNG facilities paper**: [Methods 2025](https://doi.org/10.1021/acsestair.4c00301)    
+**Tracking U.S. LNG Supply Chain Greenhouse Gas Emissions Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)  
 **Multiscale Measurements of Greenhouse Gas Emissions at US LNG Terminals**: [Greenhouse Gas Emissions 2024](https://doi.org/10.1021/acs.estlett.4c00713)   
-**Tracking U.S. LNG Supply Chain Greenhouse Gas Emissions Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)      
+    
 
 
 
