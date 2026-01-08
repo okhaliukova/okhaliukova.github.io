@@ -33,9 +33,11 @@ those from aerial surveys or high-resolution satellite platforms, at LNG facilit
 outside of the distribution describing uncertainty in the annual inventory. We also compare different preanalysis schemes for aerial
 data, as existing literature does not provide a clear consensus on methods for doing so, especially at LNG facilities. We find the
 persistence assumption to be the most critical preanalysis factor.
+
 <div style="text-align: center;">
   <img src="/images/LNG.png" style="max-width: 100%; height: auto;">
 </div>
+
 
 **LNG Aggregation methods paper**: [Methods 2025](https://doi.org/10.1021/acsestair.4c00301)    
 **LNG Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)  
