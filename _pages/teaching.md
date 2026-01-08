@@ -14,7 +14,7 @@ header:
 
 ---
 
-### **MATH 560 — Introduction to Statistical Learning Methods I**
+### **DSCI 560 — Introduction to Key Statistical Learning Methods I**
 Topics: Linear regression; LASSO and Ridge regression; cross-validation methods; classification; resampling methods; model assessment; spline regression.
 
 ---
