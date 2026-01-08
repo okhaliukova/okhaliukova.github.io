@@ -19,7 +19,7 @@ Topics: Linear regression; LASSO and Ridge regression; cross-validation methods;
 
 ---
 ### **MATH 537 — Multivariate Analysis**
-Topics: Multivariate distributions; data reduction methods; hierarchical and model-based clustering; factor analysis; canonical correlation analysis; multidimensional scaling; multivariate hypothesis testing.
+Topics: Multivariate distributions; data reduction methods; hierarchical and model-based clustering; factor analysis; multidimensional scaling; multivariate hypothesis testing.
 
 ---
 ### **MATH 530 — Statistical Methods I**
