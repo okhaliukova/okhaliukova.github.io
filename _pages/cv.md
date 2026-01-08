@@ -10,5 +10,5 @@ redirect_from:
 # Professional 
 
 Below are pdf versions of my CV and Resume. More details can be found on my <a href="https://www.linkedin.com/in/olga-khaliukova/" target="_blank">Linkedin profile</a>.
-- **CV**: [PDF](https://okhaliukova.github.io/files/Khaliukova-CV.pdf)
+- **CV**: [PDF](https://okhaliukova.github.io/files/CV_Khaliukova.pdf)
 - **Resume**: [PDF](https://okhaliukova.github.io/files/Resume_Khaliukova.pdf)
