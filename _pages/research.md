@@ -19,6 +19,7 @@ emissions monitoring, risk assessment, and financial modeling.
 ## Cheniere Energy, Inc
 **Investigating Aerial Data Preanalysis Schemes and Site-Level Methane Emission Aggregation Methods at Liquefied Natural Gas
 Facilities**
+
 Methane observations at liquefied natural gas (LNG) facilities play an important role in characterizing methane
 emissions from the natural gas supply chain. The large size and complexity of LNG facilities make quantifying emissions with
 ground-based monitoring systems challenging, making aerial platforms one of the preferred methods for detecting and estimating
