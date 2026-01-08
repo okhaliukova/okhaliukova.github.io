@@ -26,6 +26,8 @@ from three independent monitoring providers.
 • Project: Application of computational techniques to assess site-wide methane emissions at
 liquefied natural gas (LNG) facilities. Investigated the distribution of instantaneous site-wide emissions relative to
 spatially averaged estimates using aerial measurement data and Monte Carlo simulation.
+**Intercomparison paper**: [Khaliukova et al., 2025](https://doi.org/10.1021/acsestair.4c00301)      
+
 • Project: Continuous methane emissions monitoring at an oil and gas production facility.
 Evaluated the ability of multiple ground-based continuous monitoring systems to capture emissions dynamics using
 time-series analysis and wind-informed modeling.
