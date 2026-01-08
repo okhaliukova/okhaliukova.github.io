@@ -16,12 +16,6 @@ All of my publications can be found on my <a href="https://scholar.google.com/ci
 log-histospline density models with robust smoothing and extreme-quantile estimation, with applications to methane
 emissions monitoring, risk assessment, and financial modeling.
 
-## Colorado Ongoing Basin Emissions (COBE) Study
-• In collaboration with the Colorado State University (CSU) Energy
-Institute, utilized high-resolution aircraft measurements to estimate methane emissions at oil and gas production sites
-across Colorado (over 11,000 operational facilities) and constructed a joint emissions distribution using aerial data
-from three independent monitoring providers.
-
 ## Cheniere Energy, Inc
 **Investigating Aerial Data Preanalysis Schemes and Site-Level Methane Emission Aggregation Methods at Liquefied Natural Gas
 Facilities**
@@ -46,12 +40,15 @@ persistence assumption to be the most critical preanalysis factor.
 **LNG Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)  
 **LNG Multiscale Measurements paper**: [Greenhouse Gas Emissions 2024](https://doi.org/10.1021/acs.estlett.4c00713)   
     
-
-
-
 • Project: Continuous methane emissions monitoring at an oil and gas production facility.
 Evaluated the ability of multiple ground-based continuous monitoring systems to capture emissions dynamics using
 time-series analysis and wind-informed modeling.
+
+## Colorado Ongoing Basin Emissions (COBE) Study
+• In collaboration with the Colorado State University (CSU) Energy
+Institute, utilized high-resolution aircraft measurements to estimate methane emissions at oil and gas production sites
+across Colorado (over 11,000 operational facilities) and constructed a joint emissions distribution using aerial data
+from three independent monitoring providers.
 
 ## Satellite-based methane monitoring
 • Processed TROPOMI Level-2 orbit files to generate two
