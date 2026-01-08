@@ -27,7 +27,11 @@ from three independent monitoring providers.
 liquefied natural gas (LNG) facilities. Investigated the distribution of instantaneous site-wide emissions relative to
 spatially averaged estimates using aerial measurement data and Monte Carlo simulation.
 
-**Methane emission aggregation methods at LNG facilities paper**: [Khaliukova et al., 2025](https://doi.org/10.1021/acsestair.4c00301)      
+**Methane emission aggregation methods at LNG facilities paper**: [\textbf{Khaliukova O}, Zhu Y, Daniels W, Ravikumar A, Ross G, Roman-White S, George FC, Hammerling DM, 2025](https://doi.org/10.1021/acsestair.4c00301)      
+**Tracking U.S. LNG Supply Chain Greenhouse Gas Emissions Intensity paper**: [Zhu Y, Ross G, Brown J, Khaliukova O, Daniels W, Wang J, Roman-White SA, George FC,
+Zimmerle D, Hammerling D, Ravikumar A, 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)      
+
+
 
 • Project: Continuous methane emissions monitoring at an oil and gas production facility.
 Evaluated the ability of multiple ground-based continuous monitoring systems to capture emissions dynamics using
