@@ -18,7 +18,7 @@ We formulate a nonparametric approach to estimate methane emission distributions
   <img src="/images/Lognormal_2.5_1_1000_model_fit_visual_seed3_midpoints_delta085.png" style="max-width: 100%; height: auto;">
 </div>
 
-
+---
 ## Cheniere Energy, Inc
 **Investigating Aerial Data Preanalysis Schemes and Site-Level Methane Emission Aggregation Methods at Liquefied Natural Gas
 Facilities**
@@ -45,8 +45,9 @@ persistence assumption to be the most critical preanalysis factor.
 **LNG Aggregation methods paper**: [Methods 2025](https://doi.org/10.1021/acsestair.4c00301)    
 **LNG Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)  
 **LNG Multiscale Measurements paper**: [Greenhouse Gas Emissions 2024](https://doi.org/10.1021/acs.estlett.4c00713)   
-    
-## Continuous Methane Emissions Monitoring at an Oil and Gas Production Facility.
+
+
+## Continuous Methane Emissions Monitoring at an Oil and Gas Production Facility
 In these monthly reports prepared for Cheniere Energy, Inc., we focused exclusively on methane concentration measurements, rather than on localization or emission-rate estimates provided by technology vendors. Because methane concentration data serve as the primary input to vendor-specific localization and quantification algorithms, it is essential to first understand the characteristics and behavior of these raw measurements before interpreting more complex derived estimates.
 
 Accordingly, our analysis centered on ground-based continuous monitoring (CM) data collected from three technology vendors. The number and placement of sensor units varied by vendor.Exploratory analyses were conducted using methane concentration data from each system to assess overall distributional characteristics and temporal behavior.
@@ -57,12 +58,14 @@ To assess sensor responsiveness to known emission events, concentration data col
 
 Two of the vendors reported background methane concentrations near 2 ppm, consistent with the global average of approximately 1.9 ppm. In contrast, the third vendor exhibited substantially higher background concentrations and markedly greater variability. While differences in the overall shapes of the vendors’ concentration distributions were evident, sensors occasionally recorded elevated methane concentrations at similar times and magnitudes once adjusted for background levels. However, this temporal and magnitude agreement was not consistent across all events.
 
+---
 ## Colorado Ongoing Basin Emissions (COBE) Study
 In collaboration with the Colorado State University (CSU) Energy
 Institute, utilized high-resolution aircraft measurements to estimate methane emissions at oil and gas production sites
 across Colorado (over 11,000 operational facilities) and constructed a joint emissions distribution using aerial data
 from three independent monitoring providers.
 
+---
 ## Satellite-based methane monitoring
 The Global Methane Pledge, an initiative introduced at the 2021 UN Climate Change Conference, is a major commitment signed by over 100 countries to reduce methane emissions by 30% by 2030. As of 2020, the oil and gas industry accounts for 32% of anthropogenic methane emissions in the US, making it a promising avenue for reducing anthropogenic emissions. Satellite data is a useful tool for monitoring methane emissions due to its global coverage and, in many cases, open access. The TROPOspheric Monitoring Instrument (TROPOMI) onboard the Copernicus Sentinel-5 Precursor satellite measures methane at a 7x5.5 km2 resolution and provides a geolocated Level 2 product. The Level 2 products can be challenging to use for non-experts and to the best of our knowledge, there is no official Level 3 product publicly available. We processed TROPOMI Level 2 orbit files to create two versions of a gridded 0.5°x0.5° Level 3 methane product. The first product is created by taking averages of the Level 2 data that fall with latitude- and longitude-based grid cells. We create this product for two major US oil and gas producing basins, the Bakken and Permian, at daily and monthly temporal resolutions. Data are available starting from May 1, 2018. We give an example use-case for the average-based Level 3 product in economic analysis for the management of flaring and methane emissions. The second product is based on spatial modeling and attempts to leverage the spatial correlation structure of the Level 2 methane observations. We use the multi-resolution approximation (M-RA) spatial model to make predictions of the methane field and provide an alternative Level 3 product on a regular grid along with uncertainties. We show initial results from this more sophisticated product and compare it to the simple averaged product.
 
