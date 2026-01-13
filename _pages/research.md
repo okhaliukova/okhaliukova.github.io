@@ -46,12 +46,12 @@ persistence assumption to be the most critical preanalysis factor.
 **LNG Intensity paper**: [Supply Chain 2025](https://doi.org/10.26434/chemrxiv-2025-8751d)  
 **LNG Multiscale Measurements paper**: [Greenhouse Gas Emissions 2024](https://doi.org/10.1021/acs.estlett.4c00713)   
     
-• Project: Continuous methane emissions monitoring at an oil and gas production facility.
-Evaluated the ability of multiple ground-based continuous monitoring systems to capture emissions dynamics using
-time-series analysis and wind-informed modeling.
+## Continuous methane emissions monitoring at an oil and gas production facility.
+The analysis was focused on the ground-based continuous monitoring sensors by three continuous monitoring sensor companies. The monitoring of the methane concentrations along with the weather conditions that include wind speed and direction, temperature and relative humidity started Spring
+2022. The co-located sensors of all three vendors generally capture coinciding methane emissions spikes with the caveat that one of the vendors consistently records a much higher background concentration.
 
 ## Colorado Ongoing Basin Emissions (COBE) Study
-• In collaboration with the Colorado State University (CSU) Energy
+In collaboration with the Colorado State University (CSU) Energy
 Institute, utilized high-resolution aircraft measurements to estimate methane emissions at oil and gas production sites
 across Colorado (over 11,000 operational facilities) and constructed a joint emissions distribution using aerial data
 from three independent monitoring providers.
