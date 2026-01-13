@@ -18,7 +18,7 @@ We formulate a nonparametric approach to estimate methane emission distributions
   <img src="/images/Lognormal_2.5_1_1000_model_fit_visual_seed3_midpoints_delta085.png" style="max-width: 100%; height: auto;">
 </div>
 
----
+---------
 ## Cheniere Energy, Inc
 **Investigating Aerial Data Preanalysis Schemes and Site-Level Methane Emission Aggregation Methods at Liquefied Natural Gas
 Facilities**
