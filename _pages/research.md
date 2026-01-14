@@ -48,7 +48,7 @@ persistence assumption to be the most critical preanalysis factor.
 
 
 ## Continuous Methane Emissions Monitoring at an Oil and Gas Production Facility
-In these monthly reports prepared for Cheniere Energy, Inc., we focused exclusively on methane concentration measurements, rather than on localization or emission-rate estimates provided by technology vendors. Because methane concentration data serve as the primary input to vendor-specific localization and quantification algorithms, it is essential to first understand the characteristics and behavior of these raw measurements before interpreting more complex derived estimates.
+In these monthly reports prepared for **Cheniere Energy, Inc.**, we focused exclusively on methane concentration measurements, rather than on localization or emission-rate estimates provided by technology vendors. Because methane concentration data serve as the primary input to vendor-specific localization and quantification algorithms, it is essential to first understand the characteristics and behavior of these raw measurements before interpreting more complex derived estimates.
 
 Accordingly, our analysis centered on ground-based continuous monitoring (CM) data collected from three technology vendors. The number and placement of sensor units varied by vendor.Exploratory analyses were conducted using methane concentration data from each system to assess overall distributional characteristics and temporal behavior.
 
