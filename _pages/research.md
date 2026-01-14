@@ -63,7 +63,7 @@ Two of the vendors reported background methane concentrations near 2 ppm, consis
 In collaboration with the Colorado State University (CSU) Energy Institute, utilized high-resolution aircraft measurements to estimate methane emissions at oil and gas production sites across Colorado (over 11,000 operational facilities) and constructed a joint emissions distribution using aerial data from three independent monitoring providers.
 
 **Final Report**: [COBE 2025](https://cdphe.colorado.gov/greenhouse-gas-monitoring-projects-reports-and-data)  
-**Project website**: [COBE website](https://metec.colostate.edu/colorado-ongoing-basin-emissions-cobe/)
+**Project website**: [COBE website](https://metec.colostate.edu/colorado-ongoing-basin-emissions-cobe/)  
 **In the News**: [COBE news](https://engr.source.colostate.edu/colorado-department-of-public-health-and-environment-awards-3-25m-to-protect-colorado-air-quality/)
 
 
