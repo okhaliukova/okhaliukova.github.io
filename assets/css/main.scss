@@ -70,3 +70,41 @@ img.thumb {
 body {
   padding-bottom: 0 !important;
 }
+
+/* ===============================
+   Mobile overrides
+   =============================== */
+
+@include breakpoint(max-width 768px) {
+
+  /* Sidebar should stack, not stick */
+  .sidebar {
+    position: relative !important;
+    width: 100% !important;
+    padding-top: 1rem !important;
+  }
+
+  /* Avatar should flow normally */
+  .author__avatar {
+    margin: 0 auto 1rem auto !important;
+    position: relative !important;
+  }
+
+  /* Content should not be pushed down */
+  .page__content {
+    margin-top: 1rem !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Hero images should scale */
+  .page__hero,
+  .page__hero--overlay {
+    min-height: 160px;
+    background-position: center;
+  }
+
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+}
