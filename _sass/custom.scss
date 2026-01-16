@@ -66,3 +66,24 @@ background-color: #f5f5f5;
 font-size: 1rem;
 text-align: left;     /* force text to align left */
 }
+
+/* ===============================
+   Fix masthead overlap on mobile
+   =============================== */
+
+@include breakpoint(max-width 768px) {
+
+  .masthead {
+    position: relative !important;
+    top: auto !important;
+    z-index: auto !important;
+  }
+
+  /* Ensure content starts below header */
+  .initial-content,
+  .page__content {
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
+  }
+
+}
