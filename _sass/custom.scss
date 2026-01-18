@@ -71,20 +71,20 @@ text-align: left;     /* force text to align left */
    Fix masthead overlap on mobile
    =============================== */
 
-@include breakpoint(max-width 768px) {
-  
+ @include breakpoint(max-width 768px) {
+.greedy-nav__links li {
+    margin: 0.25rem 0;
+  }
   .masthead {
-    overflow: visible !important;
+    position: relative !important;
+    top: auto !important;
+    z-index: auto !important;
   }
 
-  .greedy-nav {
-    overflow: visible !important;
-  }
-
-  .hidden-links {
-    position: absolute;
-    right: 0;
-    top: 100%;
-    z-index: 1000;
+  /* Ensure content starts below header */
+  .initial-content,
+  .page__content {
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
   }
 }
