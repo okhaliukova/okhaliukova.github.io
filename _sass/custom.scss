@@ -85,5 +85,12 @@ text-align: left;     /* force text to align left */
     margin-top: 0 !important;
     padding-top: 1rem !important;
   }
+.greedy-nav__links {
+    display: flex !important;
+    flex-direction: column;
+  }
 
+  .greedy-nav__links.hidden {
+    display: flex !important;
+  }
 }
