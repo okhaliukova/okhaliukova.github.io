@@ -72,20 +72,13 @@ text-align: left;     /* force text to align left */
    =============================== */
 
 @include breakpoint(max-width 768px) {
-.greedy-nav__links li {
-    margin: 0.25rem 0;
-  }
-  .masthead {
-    position: relative !important;
-    top: auto !important;
-    z-index: auto !important;
+  
+  .masthead,
+  .greedy-nav {
+    overflow: visible !important;
   }
 
-  /* Ensure content starts below header */
-  .initial-content,
-  .page__content {
-    margin-top: 0 !important;
-    padding-top: 1rem !important;
+  .hidden-links {
+    z-index: 9999;
   }
-
 }
