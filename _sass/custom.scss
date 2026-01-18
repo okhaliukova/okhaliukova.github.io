@@ -73,12 +73,18 @@ text-align: left;     /* force text to align left */
 
 @include breakpoint(max-width 768px) {
   
-  .masthead,
+  .masthead {
+    overflow: visible !important;
+  }
+
   .greedy-nav {
     overflow: visible !important;
   }
 
   .hidden-links {
-    z-index: 9999;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
   }
 }
