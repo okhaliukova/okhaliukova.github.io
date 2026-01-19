@@ -70,23 +70,25 @@ text-align: left;     /* force text to align left */
 
 @include breakpoint(max-width 768px) {
 
-  /* Keep avatar + name aligned horizontally */
-  .masthead {
-    position: static; /* IMPORTANT */
-  }
-
-  /* Ensure name/title stay next to avatar */
+  /* Keep avatar and name aligned correctly */
   .author__content {
     margin-top: 0;
   }
 
-  /* Create space BELOW header, not inside content */
-  .initial-content {
-    margin-top: 2rem;
+  /* Prevent content from overlapping header while scrolling */
+  .masthead {
+    z-index: 10;
+    position: relative;
   }
 
-  /* Do NOT push content upward */
+  .initial-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Do not fight the theme's spacing */
   .page__content {
     padding-top: 0;
   }
 }
+
