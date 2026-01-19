@@ -84,27 +84,23 @@ text-align: left;     /* force text to align left */
 /* ===============================
    MOBILE FIX — undo desktop-only layout tricks
    =============================== */
-@include breakpoint($medium down) {
+ @media screen and (max-width: 768px) {
 
-  /* Sidebar becomes normal flow */
   .sidebar {
-    position: relative;
-    top: auto;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    position: relative !important;
+    top: auto !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
-  /* Stop pulling avatar into hero */
   .sidebar .author__avatar {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
   }
 
-  /* Let content follow header naturally */
   .page__content {
-    margin-top: 0;
-    padding-top: 1rem;
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
   }
 
 }
-
