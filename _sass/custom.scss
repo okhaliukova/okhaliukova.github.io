@@ -72,9 +72,8 @@ text-align: left;     /* force text to align left */
    =============================== */
 
  @include breakpoint(max-width 768px) {
-.greedy-nav__links li {
-    margin: 0.25rem 0;
-  }
+display: flex !important;
+  flex-direction: column;
   .masthead {
     position: relative !important;
     top: auto !important;
