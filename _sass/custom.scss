@@ -68,19 +68,6 @@ text-align: left;     /* force text to align left */
 }
 
 
-/* Mobile avatar + name alignment fix — Minimal Mistakes safe */
-@include breakpoint($medium down) {
-
-  .author__avatar {
-    margin-right: 1rem;
-  }
-
-  .author__content {
-    margin-top: 0;
-  }
-
-}
-
 /* ===============================
    MOBILE FIX — undo desktop-only layout tricks
    =============================== */
