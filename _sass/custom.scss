@@ -68,30 +68,15 @@ text-align: left;     /* force text to align left */
 }
 
 
+/* Mobile avatar + name alignment fix — Minimal Mistakes safe */
 @include breakpoint($medium down) {
 
-  /* Keep avatar + name aligned */
+  .author__avatar {
+    margin-right: 1rem;
+  }
+
   .author__content {
     margin-top: 0;
   }
 
-  /* Ensure navigation dropdown appears above content */
-  .masthead,
-  .greedy-nav,
-  .greedy-nav__menu {
-    position: relative;
-    z-index: 1000;
-  }
-
-  /* Ensure content stays below header */
-  .initial-content {
-    position: relative;
-    z-index: 1;
-  }
-
-  /* Do not override theme spacing */
-  .page__content {
-    padding-top: 0;
-  }
 }
-
