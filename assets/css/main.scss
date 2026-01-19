@@ -75,7 +75,7 @@ body {
    Mobile overrides
    =============================== */
 
-@include breakpoint(max-width 768px) {
+@include breakpoint($medium down) {
 
   /* Sidebar should stack, not stick */
   .sidebar {
