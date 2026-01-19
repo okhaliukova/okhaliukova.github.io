@@ -67,18 +67,26 @@ font-size: 1rem;
 text-align: left;     /* force text to align left */
 }
 
-/* ===============================
-   Fix masthead overlap on mobile
-   =============================== */
 
-/* Mobile-only spacing fix */
 @include breakpoint(max-width 768px) {
+
+  /* Keep avatar + name aligned horizontally */
   .masthead {
-    position: relative;
+    position: static; /* IMPORTANT */
   }
 
-  .initial-content,
+  /* Ensure name/title stay next to avatar */
+  .author__content {
+    margin-top: 0;
+  }
+
+  /* Create space BELOW header, not inside content */
+  .initial-content {
+    margin-top: 2rem;
+  }
+
+  /* Do NOT push content upward */
   .page__content {
-    padding-top: 1rem;
+    padding-top: 0;
   }
 }
