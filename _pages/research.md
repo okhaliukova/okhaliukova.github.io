@@ -22,7 +22,9 @@ We formulate a nonparametric approach to estimate methane emission distributions
 ## Cheniere Energy, Inc
 **Investigating Aerial Data Preanalysis Schemes and Site-Level Methane Emission Aggregation Methods at Liquefied Natural Gas
 Facilities**
-
+<div style="text-align: center;">
+  <img src="/images/LNG_site.png" style="max-width: 100%; height: auto;">
+</div>
 Methane observations at liquefied natural gas (LNG) facilities play an important role in characterizing methane
 emissions from the natural gas supply chain. The large size and complexity of LNG facilities make quantifying emissions with
 ground-based monitoring systems challenging, making aerial platforms one of the preferred methods for detecting and estimating
