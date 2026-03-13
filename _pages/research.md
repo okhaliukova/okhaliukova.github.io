@@ -15,7 +15,7 @@ All of my publications can be found on my <a href="https://scholar.google.com/ci
 We formulate a nonparametric approach to estimate methane emission distributions, which are often heavy-tailed, by developing a Bayesian extension of the log-histospline (LHSpline) model. The LHSpline method accurately captures tail behavior while simultaneously estimating the bulk of the distribution. It uses a smoothing spline representation of the log-density and performs particularly well for distributions with exponential tails. We improve the original LHSpline method by incorporating Huber loss for smoothing-parameter selection and by developing a full Bayesian estimation framework. Because site-level emissions are commonly computed as the sum of emissions from multiple sources, we further explore direct methods for estimating extreme quantiles of the total emission distribution and avoid the use of Monte Carlo simulations. This approach has broad applicability not only in environmental science but also in finance, insurance, and risk assessment where the distribution of interest often involves the sum of heavy-tailed distributions. We demonstrate the effectiveness of the method through a case study of methane emissions monitoring at an oil and gas production facility in the Appalachian Basin equipped with continuous monitoring sensors. In this setting, high-frequency measurement data enable a detailed characterization of the underlying emission distribution.
 
 <div style="text-align: center;">
-  <img src="/images/Lognormal_2.5_1_1000_model_fit_visual_seed3_midpoints_delta085.png" style="max-width: 100%; height: auto;">
+  <img src="/images/relative_error_BOXplot_ALL_upper_117_seed123.png" style="max-width: 100%; height: auto;">
 </div>
 
 
